@@ -9,11 +9,11 @@ const fullstackLanguages = [
 ];
 
 const fullstackLanguagesWithNextjs = [
-    { name: "Next.JS", iconPath: "assets/next-icon.svg", color: "#000000" },
+  { name: "Next.JS", iconPath: "assets/next-icon.svg", color: "#000000" },
   { name: "CSS", iconPath: "assets/css-icon.svg", color: "#1572B6" },
   { name: "Node.JS", iconPath: "assets/node-icon.svg", color: "#3DA92E" },
   { name: "Express.JS", iconPath: "assets/express-icon.svg", color: "#000000" },
-  {name : "Firebase", iconPath : "assets/firebase-icon.svg", color: "#ffca28"},
+  { name: "Firebase", iconPath: "assets/firebase-icon.svg", color: "#ffca28" },
   { name: "Figma", iconPath: "assets/figma-icon.svg", color: "#F24E1E" },
 ];
 
