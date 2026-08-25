@@ -100,7 +100,7 @@ const renderProjects = () => {
       chipsHtml += `
         <div class="stack-chip" style="border: 1px solid ${lang.color}77;">
           <img src="${lang.iconPath}" alt="${lang.name}" width="24" height="24" />
-          <p class="${lang.name === 'Figma' ? 'italic' : ''}" style="color: ${lang.color};">${lang.name}</p>
+          <p class="${lang.name === 'Figma' ? 'italic' : ''}">${lang.name}</p>
         </div>
       `;
     });

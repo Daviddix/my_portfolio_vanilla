@@ -296,7 +296,7 @@ button.sub-btn {
     margin: 0 0 0 auto;
 }
 
-.hero-section nav ul img {
+.hero-section nav div img {
     display: none;
 }
 
@@ -368,12 +368,12 @@ button.sub-btn {
         display: block;
     }
 
-    .hero-section ul img {
+    .hero-section nav div img {
         width: 2.5rem;
         height: 2.5rem;
     }
 
-    .hero-section nav ul {
+    .hero-section nav div {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -396,7 +396,7 @@ button.sub-btn {
 
 
 
-    .hero-section ul a {
+    .hero-section nav div a {
         font-size: 1.4rem;
         color: #000;
         text-decoration: none;
@@ -404,11 +404,11 @@ button.sub-btn {
         font-weight: 500;
     }
 
-    .hero-section nav ul img {
+    .hero-section nav div img {
         display: initial;
     }
 
-    .hero-section ul button {
+    .hero-section nav div button {
         display: none;
     }
 
