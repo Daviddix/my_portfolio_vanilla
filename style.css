@@ -105,6 +105,7 @@ button.sub-btn {
 
 .about-section .my-image {
     width: 100%;
+    height: auto;
 }
 
 @media screen and (min-width:800px) {
@@ -448,6 +449,7 @@ button.sub-btn {
 .project .project-image {
     display: block;
     width: 100%;
+    height: auto;
     border: 1px solid hsla(0, 0%, 0%, 0.13);
     object-fit: cover;
     object-position: top;
