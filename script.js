@@ -17,14 +17,14 @@ const vanillaLanguages = [
 
 const allProjects = [
   {
-    projectImage: "assets/mobile-benchmarks.png",
+    projectImage: "assets/mobile-benchmarks.webp",
     projectTitle: "Mobile Benchmarks : Discover Games That Run Perfectly on Your Phone ",
     projectDescription: "Mobile benchmarks is a web application that helps you compare and discover mobile games that perform well on your device. Mobile Benchmarks gives you tailored benchmarks, real-user results, and game-specific performance insights",
     liveSiteLink: "https://mobile-benchmarks.vercel.app/",
     languagesArray: fullstackLanguages
   },
   {
-    projectImage: "assets/ruta.png",
+    projectImage: "assets/ruta.webp",
     projectTitle: "Ruta : Your Guide to Learning fast with AI",
     projectDescription: "Ruta is a web application that leverages the power of AI to create personalized learning paths. Tell Ruta what you want to learn and Ruta generates a customized roadmap to help you achieve your learning objectives efficiently and effectively.",
     githubLink: "https://github.com/Daviddix/ruta",
@@ -32,7 +32,7 @@ const allProjects = [
     languagesArray: vanillaLanguages
   },
   {
-    projectImage: "assets/cryptostats.png",
+    projectImage: "assets/cryptostats.webp",
     projectTitle: "CryptoStats : Track Cryptocurrency Prices Without Leaving your Tab",
     projectDescription: "CryptoStats is a free Chrome extension designed to provide users with real-time updates on the prices of cryptocurrencies. This tool integrates seamlessly into the browser, allowing users to monitor their favorite coins and tokens without the need to navigate away from their current tabs",
     githubLink: "https://github.com/Daviddix/CryptoStats---Track-cryptocurrency-prices-without-leaving-your-tab",
@@ -40,7 +40,7 @@ const allProjects = [
     languagesArray: vanillaLanguages
   },
   {
-    projectImage: "assets/deliciouso.png",
+    projectImage: "assets/deliciouso.webp",
     projectTitle: "Deliciouso : An Easy Way to Find & Share Recipes",
     projectDescription: "Deliciouso is a web application designed to help you discover a variety of recipes and allows you to add your own. With Deliciouso, you can easily view recipes, create new ones, delete them when no longer needed, and update your existing recipes. Additionally, Deliciouso lets you view the profiles of other users, making it a simple way to share and explore recipes with others.",
     githubLink: "https://github.com/Daviddix/recipe-web-application",
@@ -48,7 +48,7 @@ const allProjects = [
     languagesArray: fullstackLanguages
   },
   {
-    projectImage: "assets/reveal.png",
+    projectImage: "assets/reveal.webp",
     projectTitle: "Reveal : Understand Privacy Policies Instantly",
     projectDescription: "Reveal is a Chrome extension designed to help you understand privacy policies using AI, offering simplified summaries and easy-to-read insights. With Reveal, you can instantly extract and simplify any privacy policy, save it for later, and ensure you’re always in the know about how your data is handled.",
     githubLink: "https://github.com/Daviddix/Reveal---Easy-to-understand-privacy-policies",
