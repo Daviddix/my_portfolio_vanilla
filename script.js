@@ -8,6 +8,15 @@ const fullstackLanguages = [
   { name: "Figma", iconPath: "assets/figma-icon.svg", color: "#F24E1E" }
 ];
 
+const fullstackLanguagesWithNextjs = [
+    { name: "Next.JS", iconPath: "assets/next-icon.svg", color: "#000000" },
+  { name: "CSS", iconPath: "assets/css-icon.svg", color: "#1572B6" },
+  { name: "Node.JS", iconPath: "assets/node-icon.svg", color: "#3DA92E" },
+  { name: "Express.JS", iconPath: "assets/express-icon.svg", color: "#000000" },
+  {name : "Firebase", iconPath : "assets/firebase-icon.svg", color: "#ffca28"},
+  { name: "Figma", iconPath: "assets/figma-icon.svg", color: "#F24E1E" },
+];
+
 const vanillaLanguages = [
   { name: "HTML", iconPath: "assets/html-icon.svg", color: "#E75326" },
   { name: "CSS", iconPath: "assets/css-icon.svg", color: "#1572B6" },
@@ -24,28 +33,12 @@ const allProjects = [
     languagesArray: fullstackLanguages
   },
   {
-    projectImage: "assets/ruta.webp",
-    projectTitle: "Ruta : Your Guide to Learning fast with AI",
-    projectDescription: "Ruta is a web application that leverages the power of AI to create personalized learning paths. Tell Ruta what you want to learn and Ruta generates a customized roadmap to help you achieve your learning objectives efficiently and effectively.",
-    githubLink: "https://github.com/Daviddix/ruta",
-    liveSiteLink: "https://ruta-one.vercel.app",
-    languagesArray: vanillaLanguages
-  },
-  {
-    projectImage: "assets/cryptostats.webp",
-    projectTitle: "CryptoStats : Track Cryptocurrency Prices Without Leaving your Tab",
-    projectDescription: "CryptoStats is a free Chrome extension designed to provide users with real-time updates on the prices of cryptocurrencies. This tool integrates seamlessly into the browser, allowing users to monitor their favorite coins and tokens without the need to navigate away from their current tabs",
-    githubLink: "https://github.com/Daviddix/CryptoStats---Track-cryptocurrency-prices-without-leaving-your-tab",
-    liveSiteLink: "https://chromewebstore.google.com/detail/cryptostats/apnalilblhlemleggbcddjpmkciocimc",
-    languagesArray: vanillaLanguages
-  },
-  {
-    projectImage: "assets/deliciouso.webp",
-    projectTitle: "Deliciouso : An Easy Way to Find & Share Recipes",
-    projectDescription: "Deliciouso is a web application designed to help you discover a variety of recipes and allows you to add your own. With Deliciouso, you can easily view recipes, create new ones, delete them when no longer needed, and update your existing recipes. Additionally, Deliciouso lets you view the profiles of other users, making it a simple way to share and explore recipes with others.",
-    githubLink: "https://github.com/Daviddix/recipe-web-application",
-    liveSiteLink: "https://deliciouso.netlify.app/",
-    languagesArray: fullstackLanguages
+    projectImage: "assets/zeni.webp",
+    projectTitle: "Zeni : A New Way to Track Your Expenses",
+    projectDescription: "Zeni is an intelligent web application that helps you track expenses, create budgets, and gain valuable insights into your spending habits using natural language. By simply typing your daily transactions, Zeni automatically categorizes them and provides visual breakdowns, helping you take full control of your personal finances with minimal effort.",
+    githubLink: "https://github.com/Daviddix/zeni",
+    liveSiteLink: "https://zeni-psi.vercel.app",
+    languagesArray: fullstackLanguagesWithNextjs
   },
   {
     projectImage: "assets/reveal.webp",
@@ -53,6 +46,14 @@ const allProjects = [
     projectDescription: "Reveal is a Chrome extension designed to help you understand privacy policies using AI, offering simplified summaries and easy-to-read insights. With Reveal, you can instantly extract and simplify any privacy policy, save it for later, and ensure you’re always in the know about how your data is handled.",
     githubLink: "https://github.com/Daviddix/Reveal---Easy-to-understand-privacy-policies",
     liveSiteLink: "https://chromewebstore.google.com/detail/reveal-instantly-understa/doapfofebjnljdcdpkknadbnojikkokp",
+    languagesArray: vanillaLanguages
+  },
+  {
+    projectImage: "assets/ruta.webp",
+    projectTitle: "Ruta : Your Guide to Learning fast with AI",
+    projectDescription: "Ruta is a web application that leverages the power of AI to create personalized learning paths. Tell Ruta what you want to learn and Ruta generates a customized roadmap to help you achieve your learning objectives efficiently and effectively.",
+    githubLink: "https://github.com/Daviddix/ruta",
+    liveSiteLink: "https://ruta-one.vercel.app",
     languagesArray: vanillaLanguages
   }
 ];
