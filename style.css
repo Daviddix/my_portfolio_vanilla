@@ -254,7 +254,7 @@ button.sub-btn {
     -o-transition: ease-in .2s;
 }
 
-.hero-section nav ul {
+.hero-section nav div {
     background-color: #61FB61;
     display: flex;
     flex-direction: column;
@@ -275,6 +275,34 @@ button.sub-btn {
     z-index: 3;
 }
 
+@keyframes mobile-menu-item-in {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-section nav.show div a {
+    animation: mobile-menu-item-in 0.35s ease-out both;
+}
+
+.hero-section nav.show div a:nth-of-type(2) {
+    animation-delay: 0.08s;
+}
+
+.hero-section nav.show div a:nth-of-type(3) {
+    animation-delay: 0.16s;
+}
+
+.hero-section nav.show div a:nth-of-type(4) {
+    animation-delay: 0.24s;
+}
+
 .hero-section nav a {
     font-size: 1.8rem;
     color: #034603;
@@ -283,7 +311,7 @@ button.sub-btn {
     font-weight: 800;
 }
 
-.hero-section ul button {
+.hero-section nav div button {
     background-color: #ddffdd;
     color: #000;
     padding: 1rem 1.5rem;
